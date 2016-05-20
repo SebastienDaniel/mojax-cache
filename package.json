@@ -1,0 +1,40 @@
+{
+  "name": "mojax-cache",
+  "description": "mojax request cache middleware",
+  "version": "1.0.0",
+  "keywords": [
+    "ajax",
+    "XMLHttpRequest",
+    "GET",
+    "cache",
+    "If-Modified-Since",
+    "304"
+  ],
+  "author": {
+    "name": "Sebastien Daniel",
+    "email": "info@sebastiendaniel.ca",
+    "url": "http://www.sebastiendaniel.ca/"
+  },
+  "bugs": {
+    "url": "https://www.github.com/SebastienDaniel/mojax-cache/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/SebastienDaniel/mojax-cache.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-exec": "*",
+    "grunt-jscs": "*",
+    "mocha": "*",
+    "istanbul": "*",
+    "grunt-mocha-istanbul": "*"
+  },
+  "dependencies": {
+    "sebastiendaniel-adt": "^2.0.0"
+  }
+}
